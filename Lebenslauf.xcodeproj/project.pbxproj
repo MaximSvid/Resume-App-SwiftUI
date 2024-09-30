@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		154D78F92CAAE08E00DBC6C0 /* CVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154D78F82CAAE08E00DBC6C0 /* CVView.swift */; };
 		CE75F1EF2C8B1427001AD0A3 /* LebenslaufApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75F1EE2C8B1427001AD0A3 /* LebenslaufApp.swift */; };
-		CE75F1F12C8B1427001AD0A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75F1F02C8B1427001AD0A3 /* ContentView.swift */; };
 		CE75F1F32C8B1428001AD0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75F1F22C8B1428001AD0A3 /* Assets.xcassets */; };
 		CE75F1F62C8B1428001AD0A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75F1F52C8B1428001AD0A3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		154D78F82CAAE08E00DBC6C0 /* CVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVView.swift; sourceTree = "<group>"; };
 		CE75F1EB2C8B1427001AD0A3 /* Lebenslauf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lebenslauf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE75F1EE2C8B1427001AD0A3 /* LebenslaufApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LebenslaufApp.swift; sourceTree = "<group>"; };
-		CE75F1F02C8B1427001AD0A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE75F1F22C8B1428001AD0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE75F1F52C8B1428001AD0A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +32,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		154D78B32CAAB80000DBC6C0 /* Personal Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Personal Data";
+			sourceTree = "<group>";
+		};
+		154D78B42CAAB8D600DBC6C0 /* Education */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Education;
+			sourceTree = "<group>";
+		};
+		154D78B52CAAB8E000DBC6C0 /* WorkExperience */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WorkExperience;
+			sourceTree = "<group>";
+		};
+		154D78FA2CAAEFF500DBC6C0 /* Resume */ = {
+			isa = PBXGroup;
+			children = (
+				154D78FB2CAAF01300DBC6C0 /* Subviews */,
+			);
+			path = Resume;
+			sourceTree = "<group>";
+		};
+		154D78FB2CAAF01300DBC6C0 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				154D78F82CAAE08E00DBC6C0 /* CVView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		154D78FC2CAAF24400DBC6C0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				154D78FD2CAAF24C00DBC6C0 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		154D78FD2CAAF24C00DBC6C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CE75F1E22C8B1427001AD0A3 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +103,12 @@
 		CE75F1ED2C8B1427001AD0A3 /* Lebenslauf */ = {
 			isa = PBXGroup;
 			children = (
+				154D78FC2CAAF24400DBC6C0 /* Data */,
+				154D78FA2CAAEFF500DBC6C0 /* Resume */,
+				154D78B52CAAB8E000DBC6C0 /* WorkExperience */,
+				154D78B42CAAB8D600DBC6C0 /* Education */,
+				154D78B32CAAB80000DBC6C0 /* Personal Data */,
 				CE75F1EE2C8B1427001AD0A3 /* LebenslaufApp.swift */,
-				CE75F1F02C8B1427001AD0A3 /* ContentView.swift */,
 				CE75F1F22C8B1428001AD0A3 /* Assets.xcassets */,
 				CE75F1F42C8B1428001AD0A3 /* Preview Content */,
 			);
@@ -137,7 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE75F1F12C8B1427001AD0A3 /* ContentView.swift in Sources */,
+				154D78F92CAAE08E00DBC6C0 /* CVView.swift in Sources */,
 				CE75F1EF2C8B1427001AD0A3 /* LebenslaufApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,8 +333,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,6 +343,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.Lebenslauf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,8 +365,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +375,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.syntax-institut.Lebenslauf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
