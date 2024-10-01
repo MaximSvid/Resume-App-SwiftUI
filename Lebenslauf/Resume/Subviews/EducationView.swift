@@ -1,5 +1,5 @@
 //
-//  InfoExperience.swift
+//  EducationView.swift
 //  Lebenslauf
 //
 //  Created by Maxim Svidrak on 01.10.24.
@@ -7,33 +7,30 @@
 
 import SwiftUI
 
-struct InfoExperience: View {
-    let experiences: [Experience]
-    
+struct EducationView: View {
+    let education: [MyEducation]
     var body: some View {
-        
         VStack (alignment: .leading) {
-            Text("Work Experience")
+            Text("Education")
                 .font(.title2)
                 .fontWeight(.bold)
                 .padding()
             
-            
             VStack(alignment: .leading, spacing: 10) { // Добавлено расстояние между элементами
-                ForEach(experiences, id: \.titel) { experience in
+                ForEach(education, id: \.titel) { education in
                     VStack(alignment: .leading) {
-                        Text(experience.titel)
+                        Text(education.titel)
                             .fontWeight(.bold)
                             .font(.title3)
                             .fontWeight(.bold)
                             .padding(.leading, 15)
                         
                         HStack {
-                            Text(experience.company)
+                            Text(education.company)
                                 .padding(.leading, 15)
                             Spacer()
                             
-                            Text("\(experience.fromYear) - \(experience.toYear)")
+                            Text("\(education.fromYear) - \(education.toYear)")
                                 .padding(.trailing, 15)
                         }
                         .padding(.top, 5)
@@ -50,5 +47,5 @@ struct InfoExperience: View {
 }
 
 //#Preview {
-//    InfoExperience(experiences: )
+//    EducationView()
 //}

@@ -15,6 +15,8 @@
 		156708EC2CABFFC200146CC2 /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156708EB2CABFFC200146CC2 /* AboutMeView.swift */; };
 		156708EE2CAC1C0600146CC2 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156708ED2CAC1C0600146CC2 /* SkillsView.swift */; };
 		156708F02CAC1C1800146CC2 /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156708EF2CAC1C1000146CC2 /* Skills.swift */; };
+		156708F42CAC6A9600146CC2 /* MyEducation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156708F32CAC6A7C00146CC2 /* MyEducation.swift */; };
+		156708F62CAC6AEA00146CC2 /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156708F52CAC6AEA00146CC2 /* EducationView.swift */; };
 		CE75F1EF2C8B1427001AD0A3 /* LebenslaufApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75F1EE2C8B1427001AD0A3 /* LebenslaufApp.swift */; };
 		CE75F1F32C8B1428001AD0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75F1F22C8B1428001AD0A3 /* Assets.xcassets */; };
 		CE75F1F62C8B1428001AD0A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75F1F52C8B1428001AD0A3 /* Preview Assets.xcassets */; };
@@ -29,6 +31,8 @@
 		156708EB2CABFFC200146CC2 /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
 		156708ED2CAC1C0600146CC2 /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
 		156708EF2CAC1C1000146CC2 /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
+		156708F32CAC6A7C00146CC2 /* MyEducation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEducation.swift; sourceTree = "<group>"; };
+		156708F52CAC6AEA00146CC2 /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
 		CE75F1EB2C8B1427001AD0A3 /* Lebenslauf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lebenslauf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE75F1EE2C8B1427001AD0A3 /* LebenslaufApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LebenslaufApp.swift; sourceTree = "<group>"; };
 		CE75F1F22C8B1428001AD0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 				156708E92CABFF5A00146CC2 /* InfoExperienceView.swift */,
 				156708EB2CABFFC200146CC2 /* AboutMeView.swift */,
 				156708ED2CAC1C0600146CC2 /* SkillsView.swift */,
+				156708F52CAC6AEA00146CC2 /* EducationView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 		154D78FD2CAAF24C00DBC6C0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				156708F32CAC6A7C00146CC2 /* MyEducation.swift */,
 				156708EF2CAC1C1000146CC2 /* Skills.swift */,
 				156708A32CABFAAE00146CC2 /* Experience.swift */,
 				154D78FE2CAB10CB00DBC6C0 /* Person.swift */,
@@ -218,8 +224,10 @@
 				154D78FF2CAB10D100DBC6C0 /* Person.swift in Sources */,
 				156708EC2CABFFC200146CC2 /* AboutMeView.swift in Sources */,
 				156708EA2CABFF5A00146CC2 /* InfoExperienceView.swift in Sources */,
+				156708F62CAC6AEA00146CC2 /* EducationView.swift in Sources */,
 				156708F02CAC1C1800146CC2 /* Skills.swift in Sources */,
 				154D78F92CAAE08E00DBC6C0 /* CVView.swift in Sources */,
+				156708F42CAC6A9600146CC2 /* MyEducation.swift in Sources */,
 				156708A42CABFAB800146CC2 /* Experience.swift in Sources */,
 				CE75F1EF2C8B1427001AD0A3 /* LebenslaufApp.swift in Sources */,
 				154D79012CAB166700DBC6C0 /* HeaderView.swift in Sources */,
