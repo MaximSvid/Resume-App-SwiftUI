@@ -11,8 +11,10 @@
 		154D78FF2CAB10D100DBC6C0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154D78FE2CAB10CB00DBC6C0 /* Person.swift */; };
 		154D79012CAB166700DBC6C0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154D79002CAB166000DBC6C0 /* HeaderView.swift */; };
 		156708A42CABFAB800146CC2 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156708A32CABFAAE00146CC2 /* Experience.swift */; };
-		156708EA2CABFF5A00146CC2 /* InfoExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156708E92CABFF5A00146CC2 /* InfoExperience.swift */; };
-		156708EC2CABFFC200146CC2 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156708EB2CABFFC200146CC2 /* AboutMe.swift */; };
+		156708EA2CABFF5A00146CC2 /* InfoExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156708E92CABFF5A00146CC2 /* InfoExperienceView.swift */; };
+		156708EC2CABFFC200146CC2 /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156708EB2CABFFC200146CC2 /* AboutMeView.swift */; };
+		156708EE2CAC1C0600146CC2 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156708ED2CAC1C0600146CC2 /* SkillsView.swift */; };
+		156708F02CAC1C1800146CC2 /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156708EF2CAC1C1000146CC2 /* Skills.swift */; };
 		CE75F1EF2C8B1427001AD0A3 /* LebenslaufApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75F1EE2C8B1427001AD0A3 /* LebenslaufApp.swift */; };
 		CE75F1F32C8B1428001AD0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75F1F22C8B1428001AD0A3 /* Assets.xcassets */; };
 		CE75F1F62C8B1428001AD0A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75F1F52C8B1428001AD0A3 /* Preview Assets.xcassets */; };
@@ -23,8 +25,10 @@
 		154D78FE2CAB10CB00DBC6C0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		154D79002CAB166000DBC6C0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		156708A32CABFAAE00146CC2 /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
-		156708E92CABFF5A00146CC2 /* InfoExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoExperience.swift; sourceTree = "<group>"; };
-		156708EB2CABFFC200146CC2 /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		156708E92CABFF5A00146CC2 /* InfoExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoExperienceView.swift; sourceTree = "<group>"; };
+		156708EB2CABFFC200146CC2 /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
+		156708ED2CAC1C0600146CC2 /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
+		156708EF2CAC1C1000146CC2 /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
 		CE75F1EB2C8B1427001AD0A3 /* Lebenslauf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lebenslauf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE75F1EE2C8B1427001AD0A3 /* LebenslaufApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LebenslaufApp.swift; sourceTree = "<group>"; };
 		CE75F1F22C8B1428001AD0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,8 +80,9 @@
 			children = (
 				154D79002CAB166000DBC6C0 /* HeaderView.swift */,
 				154D78F82CAAE08E00DBC6C0 /* CVView.swift */,
-				156708E92CABFF5A00146CC2 /* InfoExperience.swift */,
-				156708EB2CABFFC200146CC2 /* AboutMe.swift */,
+				156708E92CABFF5A00146CC2 /* InfoExperienceView.swift */,
+				156708EB2CABFFC200146CC2 /* AboutMeView.swift */,
+				156708ED2CAC1C0600146CC2 /* SkillsView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		154D78FD2CAAF24C00DBC6C0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				156708EF2CAC1C1000146CC2 /* Skills.swift */,
 				156708A32CABFAAE00146CC2 /* Experience.swift */,
 				154D78FE2CAB10CB00DBC6C0 /* Person.swift */,
 			);
@@ -208,9 +214,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156708EE2CAC1C0600146CC2 /* SkillsView.swift in Sources */,
 				154D78FF2CAB10D100DBC6C0 /* Person.swift in Sources */,
-				156708EC2CABFFC200146CC2 /* AboutMe.swift in Sources */,
-				156708EA2CABFF5A00146CC2 /* InfoExperience.swift in Sources */,
+				156708EC2CABFFC200146CC2 /* AboutMeView.swift in Sources */,
+				156708EA2CABFF5A00146CC2 /* InfoExperienceView.swift in Sources */,
+				156708F02CAC1C1800146CC2 /* Skills.swift in Sources */,
 				154D78F92CAAE08E00DBC6C0 /* CVView.swift in Sources */,
 				156708A42CABFAB800146CC2 /* Experience.swift in Sources */,
 				CE75F1EF2C8B1427001AD0A3 /* LebenslaufApp.swift in Sources */,
