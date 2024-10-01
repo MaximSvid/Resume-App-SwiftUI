@@ -8,23 +8,27 @@
 import SwiftUI
 
 struct CVView: View {
+    var person: Person
+
+    
     var body: some View {
         HStack (alignment: .top) {
-            Image("myImage")
-                .frame(width: 120, height: 120)
+            Image(person.image)
+                .resizable()
+                .frame(width: 130, height: 120)
                 .background(.gray)
                 .clipShape(RoundedRectangle(cornerRadius: 10))
                 .shadow(radius: 5)
             VStack(alignment: .leading) {
-                Text("Maxim Svidrak")
+                Text(person.name)
                     .font(.title)
                     .fontWeight(.bold)
-                Text("Android IOS Deweloper")
+                Text(person.education)
                     .font(.body)
                 HStack {
                     Image(systemName: "location.fill")
                         .foregroundColor(.blue)
-                    Text ("Berlin")
+                    Text (person.location)
                         .fontWeight(.light)
                     Spacer()
                 }
@@ -43,11 +47,13 @@ struct CVView: View {
             }
             .padding(.leading)
         }
-        .padding([.top , .leading], 10)
+        .padding([.top , .leading], 15)
         
     }
 }
+//    var experience: Experience
+
 
 #Preview {
-    CVView()
+    CVView(person: Person(image: "person", name: "Maxim Svidrak", education: "Android IOS Deweloper", location: "Berlin", aboutMe: ""))
 }
