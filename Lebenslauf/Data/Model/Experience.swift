@@ -7,7 +7,7 @@
 
 struct Experience {
     var titel: String
-    var fromYear: Int
-    var toYear: Int
+    var fromYear: String
+    var toYear: String
     var company: String
 }

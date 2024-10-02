@@ -50,27 +50,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		154D78B32CAAB80000DBC6C0 /* Personal Data */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Personal Data";
-			sourceTree = "<group>";
-		};
-		154D78B42CAAB8D600DBC6C0 /* Education */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Education;
-			sourceTree = "<group>";
-		};
-		154D78B52CAAB8E000DBC6C0 /* WorkExperience */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WorkExperience;
-			sourceTree = "<group>";
-		};
 		154D78FA2CAAEFF500DBC6C0 /* Resume */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,9 +111,6 @@
 			children = (
 				154D78FC2CAAF24400DBC6C0 /* Data */,
 				154D78FA2CAAEFF500DBC6C0 /* Resume */,
-				154D78B52CAAB8E000DBC6C0 /* WorkExperience */,
-				154D78B42CAAB8D600DBC6C0 /* Education */,
-				154D78B32CAAB80000DBC6C0 /* Personal Data */,
 				CE75F1EE2C8B1427001AD0A3 /* LebenslaufApp.swift */,
 				CE75F1F22C8B1428001AD0A3 /* Assets.xcassets */,
 				CE75F1F42C8B1428001AD0A3 /* Preview Content */,
