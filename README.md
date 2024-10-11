@@ -1,4 +1,4 @@
-First SwiftUI application
+# First SwiftUI application
 
 Exploring SwiftUI elements
 
